@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Private from './layout/private'
+import "./style/tailwind.css"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Private />
   </React.StrictMode>,
   document.getElementById('root')
 );

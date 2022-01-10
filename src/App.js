@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import './style/tailwind.css';
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/American_Beaver.jpg" className="App-logo" alt="logo" /> 
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
+        > 
+        <p className="">GGEZ</p>
         </a>
-      </header>
+      </header> 
     </div>
   );
 }
