@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Private from './layout/private'
 import "./style/tailwind.css"
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <Private />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
